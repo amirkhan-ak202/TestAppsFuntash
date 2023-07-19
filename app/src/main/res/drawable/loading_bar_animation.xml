@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="#a12068" /> <!-- Set the desired background color -->
+        </shape>
+    </item>
+
+    <!-- Progress color of the progress bar -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <solid android:color="#02dbc6" /> <!-- Set the desired progress color -->
+            </shape>
+        </clip>
+    </item>
+    <!-- Moving path color -->
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <solid android:color="@color/nav_header" /> <!-- Set the desired moving path color -->
+            </shape>
+        </clip>
+    </item>
+
+
+</layer-list>
